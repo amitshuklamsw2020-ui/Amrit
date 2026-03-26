@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #0077b6;
+  color: white;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #00b4d8, #90e0ef);
+  color: white;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #023e8a;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* SECTION */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* GALLERY */
+#gallery img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 8px;
+  padding: 10px;
+}
+
+form button {
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: #caf0f8;
+}
+
+/* FOOTER */
+footer {
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+}
+
